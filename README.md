@@ -123,7 +123,7 @@ No modules.
 | <a name="input_synthetics_subtype"></a> [synthetics\_subtype](#input\_synthetics\_subtype) | synthetics\_subtype | `string` | `"http"` | no |
 | <a name="input_synthetics_type"></a> [synthetics\_type](#input\_synthetics\_type) | synthetics\_type | `string` | `"browser"` | no |
 | <a name="input_synthetics_url"></a> [synthetics\_url](#input\_synthetics\_url) | synthetics\_type | `string` | n/a | yes |
-| <a name="input_api_request_headers"></a> [_api_request_headers](#input\_api_request_headers) | n/a | `map` | n/a | no |
+| <a name="input_api_request_headers"></a> [api_request_headers](#input\api_request_headers) | n/a | `map` | n/a | no |
 
 ## Outputs
 
