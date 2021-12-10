@@ -105,10 +105,10 @@ No modules.
 | <a name="input_datadog_app_key"></a> [datadog\_app\_key](#input\_datadog\_app\_key) | Datadog APP Key. You can find out how to get it here: https://docs.datadoghq.com/account_management/api-app-keys/ | `string` | n/a | yes |
 | <a name="input_datadog_secret_name"></a> [datadog\_secret\_name](#input\_datadog\_secret\_name) | datadog\_secret\_name | `string` | `"ut-datadog-api-key"` | no |
 | <a name="input_enabled"></a> [enabled](#input\_enabled) | enabled | `bool` | `true` | no |
-| <a name="input_env"></a> [env](#input\_env) | env | `any` | n/a | yes |
-| <a name="input_name"></a> [name](#input\_name) | name | `any` | n/a | yes |
+| <a name="input_env"></a> [env](#input\_env) | env | `string` | n/a | yes |
+| <a name="input_name"></a> [name](#input\_name) | name | `string` | n/a | yes |
 | <a name="input_notification_targets"></a> [notification\_targets](#input\_notification\_targets) | List of targets to inform. For example it could be @slack-alerts or @user:name@somemail.com. For more info visit https://docs.datadoghq.com/monitors/notifications/?tab=is_alert#notifications | `list` | n/a | yes |
-| <a name="input_service_name"></a> [service\_name](#input\_service\_name) | service\_name | `any` | n/a | yes |
+| <a name="input_service_name"></a> [service\_name](#input\_service\_name) | service\_name | `string` | n/a | yes |
 | <a name="input_ssl_assertion_operator"></a> [ssl\_assertion\_operator](#input\_ssl\_assertion\_operator) | n/a | `string` | `"isInMoreThan"` | no |
 | <a name="input_ssl_assertion_target"></a> [ssl\_assertion\_target](#input\_ssl\_assertion\_target) | n/a | `number` | `30` | no |
 | <a name="input_ssl_assertion_type"></a> [ssl\_assertion\_type](#input\_ssl\_assertion\_type) | n/a | `string` | `"certificate"` | no |
@@ -122,7 +122,8 @@ No modules.
 | <a name="input_synthetics_status"></a> [synthetics\_status](#input\_synthetics\_status) | n/a | `string` | `"live"` | no |
 | <a name="input_synthetics_subtype"></a> [synthetics\_subtype](#input\_synthetics\_subtype) | synthetics\_subtype | `string` | `"http"` | no |
 | <a name="input_synthetics_type"></a> [synthetics\_type](#input\_synthetics\_type) | synthetics\_type | `string` | `"browser"` | no |
-| <a name="input_synthetics_url"></a> [synthetics\_url](#input\_synthetics\_url) | synthetics\_type | `any` | n/a | yes |
+| <a name="input_synthetics_url"></a> [synthetics\_url](#input\_synthetics\_url) | synthetics\_type | `string` | n/a | yes |
+| <a name="input_api_request_headers"></a> [synthetics\_api_request_headers](#input\_synthetics\_api_request_headers) | synthetics\_type | `map` | n/a | no |
 
 ## Outputs
 
