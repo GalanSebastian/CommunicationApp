@@ -97,7 +97,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_api_assertions"></a> [api\_assertion\_assertions](#input\_api\_assertion\_assertions) | n/a | `list` | `"operator = is, target = 200, type = statusCode"` | no |
+| <a name="input_api_assertions"></a> [api\_assertions](#input\_api\_assertions) | n/a | `list` | `"operator = is, target = 200, type = statusCode"` | no |
 | <a name="input_api_request_frequency"></a> [api\_request\_frequency](#input\_api\_request\_frequency) | n/a | `number` | `60` | no |
 | <a name="input_aws_region"></a> [aws\_region](#input\_aws\_region) | aws\_region | `string` | n/a | yes |
 | <a name="input_browser_request_frequency"></a> [browser\_request\_frequency](#input\_browser\_request\_frequency) | n/a | `number` | `300` | no |
