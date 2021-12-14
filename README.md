@@ -124,6 +124,8 @@ No modules.
 | <a name="input_synthetics_type"></a> [synthetics\_type](#input\_synthetics\_type) | synthetics\_type | `string` | `"browser"` | no |
 | <a name="input_synthetics_url"></a> [synthetics\_url](#input\_synthetics\_url) | synthetics\_type | `string` | n/a | yes |
 | <a name="input_api_request_headers"></a> [api_request_headers](#input\api_request_headers) | n/a | `map` | n/a | no |
+| <a name="input_min_failure_duration"></a> [ssl\_assertion\_min_failure_duration](#input\_ssl\_assertion\_min_failure_duration) | n/a | `number` | `300` | no |
+| <a name="input_ssl_assertion_target"></a> [ssl\_assertion\_min_location_failed](#input\_ssl\_assertion\_min_location_failed) | n/a | `number` | `3` | no |
 
 ## Outputs
 
